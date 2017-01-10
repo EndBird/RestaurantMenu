@@ -1,0 +1,68 @@
+body {
+	background-color: lightgreen;
+	position: relative;
+	
+}
+
+div {
+	margin-left: 30%;
+	background-color: yellow;
+	border: 5px solid lightyellow;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px 10px 10px 10px;
+
+}
+#menu {
+	position: absolute;
+	background-color: orange;
+	left:50%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+.price {
+	
+	text-align: right;
+	
+	float:right;
+}
+
+img {
+	
+	display: none;
+}
+  
+ul:hover img{
+	position: fixed;
+	width:100px;
+	height:100px;
+	display: inline;
+	left: 87px;
+	top:108px;
+	
+	
+
+}
+
+header {
+	background-color: orange;
+	position: fixed;
+	border-radius: 10px 10px 10px 10px;
+
+
+}
+
+
+
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	}
+
+h2 {
+	font-family: 'Arima Madurai', cursive;
+	text-decoration: underline;
+}
+

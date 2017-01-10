@@ -1,0 +1,82 @@
+body {
+	position: relative;
+
+}
+
+header {
+	background-color: pink;
+	border: 5px dotted red;
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	overflow: hidden;
+	border-radius: 10px 10px 10px 10px;
+	
+
+}
+header div {
+	display: none;
+}
+
+img {
+
+	width: 50px;
+	height: 50px;
+}
+
+#menu {
+	position: absolute;
+	top: 150px;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+	
+	
+}
+.Lunch {
+	margin: 5px;
+	border-radius: 10px 10px 10px 10px;
+	max-width: 599px;
+}
+.Dinner {
+	margin: 5px;
+	border-radius: 10px 10px 10px 10px;
+	max-width: 599px;
+	
+}
+.Lunch, .Dinner {
+
+	background-color: lightgreen;
+	border: 3px dotted green;
+	
+
+}
+
+a {
+
+	
+}
+.Lunch>ul, .Dinner>ul {
+	background-color: yellow;
+	border: 2px dotted black;
+	border-radius: 10px 10px 10px 10px;
+	width: 100px;
+	position: relative;
+	/*float: right;*/
+	display: inline-block;
+	text-align: center;
+	height: 150px;
+
+
+
+}
+
+
+
+img {
+	border: 1px solid black;
+}
+
+
+
+
